@@ -5,8 +5,6 @@
 /* This file tests the functionality of the DOMPurify library. It tests for XSS 
 vulnerabilities in HTML of user uploaded data.*/
 
-/* Run in OED Docker web container terminal/shell: 
- npm run testsome src/server/test/crossSite/crossSite.js */
 const { chai, mocha, expect, app, testUser } = require('../common');
 
 mocha.describe('Cross site', () => {
